@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Blogger Spotted</title>
+
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Blogger Spotted - A unique platform for discovering trending blogs.">
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&family=Sacramento&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Font Awesome for Icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+      integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- External CSS -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="main-container">
+      <!-- Video Background with Fallback Image -->
+      <video autoplay loop muted aria-label="Background video">
+        <source src="bg.mp4" type="video/mp4" />
+        <img src="fallback.jpg" alt="Background image">
+      </video>
+
+      <div class="bg-overlay"></div>
+
+      <!-- Navigation -->
+      <nav>
+        <div class="logo">
+          <a href="#" aria-label="Welcome Page">Welcome</a>
+        </div>
+        <ul class="menu-items">
+          <li>
+            <a href="https://jovial-meerkat-4f8ad0.netlify.app/" target="_blank" aria-label="Log in page">Log in</a>
+          </li>
+          <li>
+            <a href="https://jocular-gaufre-688679.netlify.app/" target="_blank" aria-label="Top Blogs page">Top Blogs</a>
+          </li>
+          <li>
+            <a href="#" aria-label="About page  ">About</a>
+          </li>
+          <li>
+            <a href="#" aria-label="Contact page">Contact</a>
+          </li>
+        </ul>
+
+        <div class="menu-button" aria-label="Mobile menu toggle">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            class="h-6 w-6"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke="currentColor"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M4 8h16M4 16h16"
+            />
+          </svg>
+        </div>
+      </nav>
+
+      <!-- Hero Section -->
+      <header class="hero-section">
+        <h1>Blogger Spotted</h1>
+        <br><br>
+        <p>Check the Blog page for trending blogs to create.</p>
+        <br>
+        <a href="https://www.woorank.com/en/blog/promoting-your-blog-on-social-media" class="btn" target="_blank" aria-label="Watch Demo">Watch Demo</a>
+      </header>
+
+      <!-- Social Links -->
+      <div class="social">
+        <a href="#" aria-label="Github link">
+          <i class="fab fa-github"></i>
+        </a>
+        <a href="#" aria-label="Facebook link">
+          <i class="fab fa-facebook"></i>
+        </a>
+        <a href="#" aria-label="Instagram link">
+          <i class="fab fa-instagram"></i>
+        </a>
+      </div>
+    </div>
+
+    <!-- Mobile Menu -->
+    <div class="mobile-menu-items">
+      <div class="close-button" aria-label="Close mobile menu">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          class="h-6 w-6"
+          fill="none"
+          viewBox="0 0 24 24"
+          stroke="currentColor"
+        >
+          <path
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+            d="M6 18L18 6M6 6l12 12"
+          />
+        </svg>
+      </div>
+
+      <ul class="menu-items">
+        <li>
+          <a href="https://jovial-meerkat-4f8ad0.netlify.app/" aria-label="Log in page">Log in</a>
+        </li>
+        <li>
+          <a href="https://jocular-gaufre-688679.netlify.app/" aria-label="Blog page">Blog</a>
+        </li>
+        <li>
+          <a href="#" aria-label="About page">About</a>
+        </li>
+        <li>
+          <a href="#" aria-label="Contact page">Contact</a>
+        </li>
+      </ul>
+    </div>
+
+    <!-- External JavaScript -->
+    <script src="main.js"></script>
+  </body>
+</html>
